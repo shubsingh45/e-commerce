@@ -1,0 +1,71 @@
+.main{
+    display: flex;
+     width: 100%;
+     justify-content: space-around;
+     background-color: blue;
+     align-items: center;
+
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 61px;
+}
+.nav{
+    display: flex;
+  justify-content: space-around;
+  width: 52%;
+  align-items: center;
+
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+ list-style: none;
+}
+.navbar li{
+    font-size: 26px;
+    color:  white;
+    font-weight: 400;
+    cursor: pointer;
+}
+.login{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  margin-right: 62px;
+}
+.login button{
+  font-size: 19px;
+  padding: 2px 12px;
+  border: 2px solid white;
+  cursor: pointer;
+}
+.cart{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.count{
+  font-size: 24px;
+  background-color: red;
+  text-align: center;
+  margin-top: -31px;
+  border-radius: 15px;
+  height: 16px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-left: -8px;
+
+}
+.active{
+  color: red;
+}

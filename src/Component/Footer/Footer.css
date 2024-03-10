@@ -1,0 +1,46 @@
+.con{
+
+    display: flex;
+    justify-content: center;
+  }
+.sec-con{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.logo img{
+ height: 80px;
+}
+.logo h1{
+    font-weight: 407;
+  margin-left: 20px;
+
+}
+.li-item{
+    display: flex;
+  list-style: none;
+  font-size: 17px;
+  font-weight: 600;
+  gap: 44px;
+  margin-top: 25px;
+}
+.icon{
+    display: flex;
+  gap: 75px;
+  margin-top: 27px;
+
+}
+.sec-con hr{
+    color: black;
+  width: 160%;
+  height: 2px;
+  background-color: black;
+  margin-top: 27px;
+
+}
+.sec-con h2{
+    font-size: 21px;
+}
+

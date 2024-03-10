@@ -1,0 +1,41 @@
+.sec-item{
+    display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 80px;
+}
+.item{
+    display: flex;
+  flex-direction: column;
+  width: 232px;
+margin-left: 30px;
+}
+.item:hover{
+    translate: 0 -30px;
+    transition: 300ms linear;
+}
+.item-price{
+    display: flex;
+    gap: 20px;
+}
+.item-price-new{
+    color: #374151;
+    font-size: 18px;
+    font-weight: 600;
+}
+.item-price-old{
+    color: #8c8c8c;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: line-through;
+}
+.popular{
+    display: flex;
+  flex-direction: column;
+}
+.popular h1{
+    text-align: center;
+}
+.popular hr{
+    width: 40%;
+}

@@ -1,0 +1,48 @@
+
+.sec-div{
+    display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 85%;
+  justify-content: center;
+  margin-top: 80px;
+
+}
+
+.third-div{
+    display: flex;
+  flex-direction: column;
+  width: 259px;
+margin-left: 30px;
+margin-top: 38px;
+}
+.third-div:hover{
+    translate: 0 -30px;
+    transition: 300ms linear;
+}
+.main-price{
+    display: flex;
+    gap: 20px;
+}
+.new-price{
+    color: #374151;
+    font-size: 18px;
+    font-weight: 600;
+}
+.old-price{
+    color: #8c8c8c;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: line-through;
+}
+.first-div{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.first-div h1{
+    text-align: center;
+}
+.first-div hr{
+    width: 40%;
+}
